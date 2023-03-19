@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="TE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!--CSS Styles-->
+        <link rel="stylesheet" href="assets/css/styles.css"/>
+        <!-- Animate CSS CDN -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  <title>Simran Anand | Web Developer</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <h1>SIMRAN ANAND</h1>
+            <ul class="navigation">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+    
+        <!-- Hero Section -->
+
+        <section class="hero" id="about">
+            <img 
+                src="assets/images/software-engineering-career-ed.svg"
+                alt="simran-anand"
+                loading="lazy"
+                class="hero-img"
+            />
+            <div class="bio animate__animated animate__shakeX">
+                <h2 class="bio-title">About Me</h2>
+                <p class="bio-text">
+                  My name is Simran Anand. I am a software Engineer specializing in building (and occasionally
+                  designing) exceptional digital experiences. Currently, I am 
+                  focused on building accessible, human centered products.
+                </p>
+              </div>
+
+        </section>
+    
+        <!-- More about -->
+        <!--Leaving more about empty for now.-->
+    
+        <!-- Skills section -->
+
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img
+                        src="assets/images/html-5-logo-svgrepo-com.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/images/w3_css-official.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/images/logo-javascript.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    
+                </div>
+                <div class="second-set animate__animated animate__pulse">
+                    <img 
+                        src="assets/images/bootstrap-4.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+
+                    <img 
+                        src="assets/images/react-2.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+
+                    <img 
+                        src="assets/images/git-icon.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                </div>
+                <div class="second-set animate__animated animate__pulse">
+                    <img 
+                        src="assets/images/github-icon.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+
+                    <img 
+                        src="assets/images/java-icon.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+
+                </div>
+            </div>
+        </section>
+    
+        <!-- Projects section -->
+            <section class="projects" id="projects">
+                <h2 class="projects-title">Some of my recent projects</h2>
+                <div class="projects-container">
+                    <div class="project-container project-card">
+                      <img 
+                        src="assets/images/quiz.png"
+                        alt="quiz"
+                        loading="lazy"
+                        class="project-pic"
+                      />  
+                      <h3 class="project-title">Quiz Game</h3>
+                      <p class="project-details">
+                        This is a quiz made on flowers.There are 3 levels.
+                        You reach to next level only when all answers on level one are correct.
+                      </p>
+                      <a href="https://replit.com/@simrananand/ex14" target="_blank" class="project-link">Check it out</a>
+                    </div>
+
+                    <div class="project-container project-card">
+                        <img 
+                          src="assets/images/quiz.png"
+                          alt="quiz"
+                          loading="lazy"
+                          class="project-pic"
+                        />  
+                        <h3 class="project-title">Quiz Game</h3>
+                        <p class="project-details">
+                          This is a quiz made on flowers.There are 3 levels.
+                          You reach to next level only when all answers on level one are correct.
+                        </p>
+                        <a href="https://replit.com/@simrananand/ex14" target="_blank" class="project-link">Check it out</a>
+                      </div>
+
+                      <div class="project-container project-card">
+                        <img 
+                          src="assets/images/quiz.png"
+                          alt="quiz"
+                          loading="lazy"
+                          class="project-pic"
+                        />  
+                        <h3 class="project-title">Quiz Game</h3>
+                        <p class="project-details">
+                          This is a quiz made on flowers.There are 3 levels.
+                          You reach to next level only when all answers on level one are correct.
+                        </p>
+                        <a href="https://replit.com/@simrananand/ex14" target="_blank" class="project-link">Check it out</a>
+                      </div>
+                </div>
+            </section>
+
+    
+        <!-- Contact section -->
+            <section class="contact" id="contact">
+                <h2>Get in touch with me</h2>
+                <div class="contact-form-container">
+                    <div class="contact-form">
+                        <form action="mailto:simrananand.211.1999@gmail.com" method="POST">
+                            <div class="form-control">
+                                <label for="name">Name</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="sender-name"
+                                    placeholder="Enter Your Name"
+                                    class="input-field"
+                                    required
+                                />
+                            </div>
+                            <div class="form-control">
+                                <label for="email">Email</label>
+                                <input 
+                                    type="email"
+                                    id="email"
+                                    name="sender-email"
+                                    placeholder="Enter Your Email"
+                                    class="input-field"
+                                    required
+                                />
+                            </div>
+                            <div class="form-control">
+                                <label for="message">Message</label>
+                                <textarea
+                                    id="message"
+                                    cols="60"
+                                    rows="10"
+                                    placeholder="Enter Your Message"
+                                    name="message"
+                                    class="input-field"
+                                    required
+                                    
+                                ></textarea>
+
+                            </div>
+                            <input 
+                            type="submit"
+                            value="submit"
+                            id="submit-btn"
+                            class="submit-btn"
+                            />
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+    
+        <!-- Social accounts-->
+            <div class="socials">
+                <a href="https://github.com/simrananand-2-11" target="_blank"
+                    <img
+                        src="assets/images/github-icon.svg"
+                        alt="Github"
+                        class="socicon"
+                    />
+                </a>
+                <a href="https://twitter.com/simrananand_211" target="_blank"
+                    <img
+                        src="assets/images/twitter-svgrepo-com.svg"
+                        alt="Twitter"
+                        class="socicon"
+                    />
+                </a>
+                <a href="https://www.linkedin.com/in/simran-anand211/" target="_blank"
+                    <img
+                        src="assets/images/linkedin-112.svg"
+                        alt="LinkedIn"
+                        class="socicon"
+                    />
+                </a>
+                
+                <a href="https://www.instagram.com/_simran_anand_211/" target="_blank"
+                    <img
+                        src="assets/images/instagram-icon.svg"
+                        alt="Instagram"
+                        class="socicon"
+                    />
+                </a>
+           
+                
+            </div>
+        <!-- Scroll to top -->
+            <i class="scroll-up" id="scroll-up">
+                <img
+                    src="assets/images/icons8-scroll-up.gif"
+                    alt="scroll-up"
+                    class="socicon up-arrow"
+                
+                />
+            </i>
+        <!-- Footer section -->
+           <footer>
+            <p class="copy">&copy; Copyright 2023</p>
+            <p class=""copy>
+                Built with &#x2661; by <a href="https://twitter.com/simrananand_211" target="_blank">Simran Anand (simrananand_211)</a>
+
+            </p>
+           </footer>
+        <!-- Website scripts -->
+        <script src="assets/js/app.js"></script>
+    
+        <!-- Ion icons scripts -->
+       <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+      </body>
+</html>
+
+
